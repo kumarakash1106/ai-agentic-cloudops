@@ -1,0 +1,27 @@
+
+[
+  {
+    "service": "checkout",
+    "timestamp": "2026-10-16T10:00:00",
+    "level": "WARNING",
+    "message": "DB connection pool 92% utilized"
+  },
+  {
+    "service": "checkout",
+    "timestamp": "2026-10-16T10:01:00",
+    "level": "ERROR",
+    "message": "POST /checkout returned HTTP 500"
+  },
+  {
+    "service": "checkout",
+    "timestamp": "2026-10-16T10:02:00",
+    "level": "WARNING",
+    "message": "Checkout request latency exceeded expected threshold"
+  },
+  {
+    "service": "payments",
+    "timestamp": "2026-10-16T10:02:00",
+    "level": "INFO",
+    "message": "Payment service health check passed"
+  }
+]

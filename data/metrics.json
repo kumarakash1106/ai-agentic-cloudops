@@ -1,0 +1,15 @@
+
+[
+  {
+    "service": "checkout",
+    "latency_ms": 920,
+    "error_rate": 4.8,
+    "db_pool_percent": 92
+  },
+  {
+    "service": "payments",
+    "latency_ms": 180,
+    "error_rate": 0.2,
+    "db_pool_percent": 35
+  }
+]
